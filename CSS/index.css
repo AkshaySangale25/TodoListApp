@@ -11,11 +11,20 @@
 .btn{
     display: flex;
     width: 100%;
-    padding: 20px;
+    padding: 30px;
 }
 .btn-left{
     width:50%
 }
 .btn-right{
     width: 50%;
+}
+.btn .btn-left button{
+    border: none;
+    outline: none;
+    background-color: green;
+    padding: 15px;
+    font-size: small;
+    color: aliceblue;
+
 }
